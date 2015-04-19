@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">AndroidSample</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="library_names">
+        <item>ButterKnife</item>
+        <item>Dagger</item>
+        <item>Dagger2</item>
+        <item>AndroidAnnotations</item>
+    </string-array>
 </resources>
