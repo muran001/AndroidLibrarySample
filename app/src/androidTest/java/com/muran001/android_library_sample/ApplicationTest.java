@@ -1,4 +1,4 @@
-package android_sample.muran001.com.androidsample;
+package com.muran001.android_library_sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,9 +1,11 @@
-package android_sample.muran001.com.androidsample;
+package com.muran001.anroid_library_sample;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import android_sample.muran001.com.androidsample.R;
 
 
 public class MainActivity extends ActionBarActivity {
