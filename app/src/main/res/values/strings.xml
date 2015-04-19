@@ -7,4 +7,8 @@
         <item>Dagger2</item>
         <item>AndroidAnnotations</item>
     </string-array>
+    <string name="butterknife_description">
+        This library eliminates findViewById or onClick sentence by using annotation on fields.\n
+        Please see this code.
+    </string>
 </resources>
