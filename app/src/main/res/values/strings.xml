@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <string-array name="library_names">
         <item>ButterKnife</item>
-        <item>Dagger</item>
+        <item>Timber</item>
         <item>Dagger2</item>
         <item>AndroidAnnotations</item>
     </string-array>
