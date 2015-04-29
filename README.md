@@ -3,8 +3,9 @@
 
 ## Libraries
 
-* ButterKnife Sample
-* Timber Sample
-* Retrofit Sample
+* (ButterKnife)[https://github.com/JakeWharton/butterknife] Sample
+* (Timber)[https://github.com/JakeWharton/timber] Sample
+* (Retrofit)[https://github.com/square/retrofit] Sample
+* (Otto)[https://github.com/square/otto] Sample
 
 
