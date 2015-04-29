@@ -42,7 +42,6 @@ public class RetrofitActivity extends BaseLibraryActivity  {
                     client.contributors("square", "retrofit", callback);
                 } catch (RetrofitError e) {
                     e.printStackTrace();
-                    Log.d("Retrofit Status", "" + e.getUrl());
                 }
             }
         });
@@ -97,7 +96,6 @@ public class RetrofitActivity extends BaseLibraryActivity  {
     // for listview
 
     private class ContributorAdapter extends ArrayAdapter<Contributor> {
-
         public ContributorAdapter(Context context, List<Contributor> contributors) {
             super(context, 0, contributors);
         }
