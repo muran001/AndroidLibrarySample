@@ -23,7 +23,7 @@ public class TimberActivity extends BaseLibraryActivity {
             Timber.plant(new CrashReportingTree());
         }
 
-        setClickListener((Button) findViewById(R.id.firstButton));
+        setClickListener((Button) findViewById(R.id.load_contributors_button));
         setClickListener((Button) findViewById(R.id.secondButton));
     }
 

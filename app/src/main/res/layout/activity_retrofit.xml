@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Library of Timber"
+        android:text="Library of Retrofit"
         android:id="@+id/textView2"
         android:gravity="center"
         android:background="#666666"
@@ -20,7 +20,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="#CCCCCC"
-        android:text="@string/timber_description" />
+        android:text="@string/retrofit_description" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,20 +30,21 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FIRST"
+            android:text="LOAD CONTRIBUTORS"
             android:id="@+id/load_contributors_button"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="96dp" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="SECOND"
-            android:id="@+id/secondButton"
-            android:layout_below="@+id/load_contributors_button"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contributor_list_view"
+            android:layout_below="@+id/load_contributors_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp" />
+
     </RelativeLayout>
 
 </LinearLayout>

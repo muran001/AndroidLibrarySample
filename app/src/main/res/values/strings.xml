@@ -4,11 +4,19 @@
     <string-array name="library_names">
         <item>ButterKnife</item>
         <item>Timber</item>
-        <item>Dagger2</item>
-        <item>AndroidAnnotations</item>
+        <item>Retrofit</item>
+        <item>Others</item>
     </string-array>
     <string name="butterknife_description">
         This library eliminates findViewById or onClick sentence by using annotation on fields.\n
+        Please see this code.
+    </string>
+    <string name="timber_description">
+        This library is a logger which enables you to change logging class by situation.\n
+        Please see this code.
+    </string>
+    <string name="retrofit_description">
+        This library provides restful functions with your rest client interface.\n
         Please see this code.
     </string>
 </resources>
