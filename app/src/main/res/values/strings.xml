@@ -5,6 +5,7 @@
         <item>ButterKnife</item>
         <item>Timber</item>
         <item>Retrofit</item>
+        <item>Otto</item>
         <item>Others</item>
     </string-array>
     <string name="butterknife_description">
@@ -17,6 +18,11 @@
     </string>
     <string name="retrofit_description">
         This library provides restful functions with your rest client interface.\n
+        Please see this code.
+    </string>
+    <string name="otto_description">
+        This library provides event bus function between different parts of your application
+        to communicate efficiently.\n
         Please see this code.
     </string>
 </resources>
