@@ -1,11 +1,10 @@
-package com.muran001.anroid_library_sample;
+package com.muran001.android_library_sample;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
-import android_sample.muran001.com.androidsample.R;
 
 public class BaseLibraryActivity extends ActionBarActivity {
 

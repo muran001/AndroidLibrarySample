@@ -1,7 +1,6 @@
-package com.muran001.anroid_library_sample;
+package com.muran001.android_library_sample;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,8 +10,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import android_sample.muran001.com.androidsample.R;
 
 
 public class MainActivity extends ActionBarActivity {

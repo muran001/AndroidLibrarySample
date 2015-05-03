@@ -1,4 +1,4 @@
-package com.muran001.anroid_library_sample.lib.otto;
+package com.muran001.android_library_sample.lib.otto;
 
 public class ChildButtonClickEvent {
     public String message;

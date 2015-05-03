@@ -1,16 +1,15 @@
-package com.muran001.anroid_library_sample;
+package com.muran001.android_library_sample;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.muran001.anroid_library_sample.lib.otto.ChildButtonClickEvent;
-import com.muran001.anroid_library_sample.lib.otto.EventBusProvider;
-import com.muran001.anroid_library_sample.lib.otto.ParentButtonClickEvent;
+import com.muran001.android_library_sample.lib.otto.ChildButtonClickEvent;
+import com.muran001.android_library_sample.lib.otto.EventBusProvider;
+import com.muran001.android_library_sample.lib.otto.ParentButtonClickEvent;
 import com.squareup.otto.Subscribe;
 
-import android_sample.muran001.com.androidsample.R;
 
 public class OttoActivity extends BaseLibraryActivity {
 

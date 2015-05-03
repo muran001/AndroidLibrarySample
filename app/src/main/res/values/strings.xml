@@ -6,6 +6,7 @@
         <item>Timber</item>
         <item>Retrofit</item>
         <item>Otto</item>
+        <item>Dagger2</item>
         <item>Others</item>
     </string-array>
     <string name="butterknife_description">
@@ -23,6 +24,10 @@
     <string name="otto_description">
         This library provides event bus function between different parts of your application
         to communicate efficiently.\n
+        Please see this code.
+    </string>
+    <string name="dagger2_description">
+        This library is a dependency injection framework with generated code.\n
         Please see this code.
     </string>
 </resources>

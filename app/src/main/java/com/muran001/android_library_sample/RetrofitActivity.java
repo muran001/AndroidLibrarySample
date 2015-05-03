@@ -1,9 +1,8 @@
-package com.muran001.anroid_library_sample;
+package com.muran001.android_library_sample;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import android_sample.muran001.com.androidsample.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;

@@ -1,7 +1,6 @@
-package com.muran001.anroid_library_sample;
+package com.muran001.android_library_sample;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -11,14 +10,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import android_sample.muran001.com.androidsample.R;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
 import butterknife.OnItemClick;
-import butterknife.OnItemSelected;
 
 public class ButterKnifeActivity extends BaseLibraryActivity {
 
